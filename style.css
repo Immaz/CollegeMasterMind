@@ -1,0 +1,104 @@
+:root {
+  --primary: #0eb582;
+  --secondary: #ffffff;
+}
+*{
+  font-family: "Roboto", sans-serif;
+}
+p, small{
+  color: #555; 
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 700;
+}
+.our-btn-primary{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 17px;
+    background-color: var(--primary);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--primary);
+    border-radius: 36px;
+    padding: 18px 30px 15px;
+    color: var(--secondary);
+}
+.our-btn-secondary{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 17px;
+    background-color: var(--secondary);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--primary);
+    border-radius: 36px;
+    padding: 18px 30px 15px;
+    color: var(--primary)
+}
+.our-btn-primary:hover{
+  color: var(--primary);
+  background-color: var(--secondary);
+
+}
+.our-btn-secondary:hover{
+  color: var(--secondary);
+  background-color: var(--primary);
+
+}
+#navbarNavAltMarkup{
+  justify-content: end;
+  align-items: center;
+}
+.navbar{
+  height: 12vh !important;
+  border-bottom: 1px solid #486284;
+}
+.navbar-nav{
+  justify-content: space-around;
+  
+}
+.nav-link{
+  padding-left: 1.3rem !important;
+  padding-right: 1.3rem !important;
+  font-weight: 500 !important;
+  color: #486284 !important;
+}
+.nav-btn{
+  background-color: #486284;
+  color: white;
+}
+.active{
+  color: #1A202C !important;
+  font-weight: 600  !important;
+}
+.home {
+  background: url("./images/banner_shape.png");
+  background-color: #F4F8FF;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.main-box{
+  display: flex;
+  align-items: center;
+}
+.hashtags{
+  color: #777;
+  font-family: "Rubik", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec-title{
+    text-align: left;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -.64px;
+}
+.sec-sub-title{
+  font-size: 18px;
+  letter-spacing: -.18px;
+}
