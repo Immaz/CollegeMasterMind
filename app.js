@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log("ready!");
   
   $(".filter").click(function () {
     $(".filter").each(function () {
