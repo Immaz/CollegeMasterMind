@@ -2,9 +2,7 @@
   --primary: #0eb582 !important;
   --secondary: #ffffff !important;
 }
-*{
-  font-family: "Roboto", sans-serif;
-}
+
 p, small{
   color: #555; 
   font-weight: 400;
@@ -216,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 .ts-course-category .single-course-category .course-category-title a {
   font-size: 14px;
 }
+
 .single-course-category:hover {
   background-color: #03016F;
   color: #ffffff !important;  
@@ -250,4 +249,1705 @@ h1, h2, h3, h4, h5, h6 {
 }
 .course-category a:hover{
   font-size: 16px !important;
+}
+
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.title{
+  text-align: center;
+  color: rgb(8, 8, 84);
+}
+
+.card{
+  border-radius: 12px;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: calc(33.3333% - 2rem); /* Adjust for three cards per row */
+}
+
+.card:nth-child(3n) {
+  margin-right: 0; /* No right margin for every third card */
+}
+
+.card-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.p-img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.card-desc{
+  margin-bottom: 1rem;
+}
+
+.card-bottom{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 45px;
+  width: 45px;
+  margin-right: 1rem;
+}
+
+.btn{
+  /* padding: .5rem; */
+  border-radius: 25px;
+  background-color: rgb(79, 201, 132);
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+      width: calc(25% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+      width: calc(50% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+  .card {
+      width: calc(75% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 480px) {
+  .card {
+      width: calc(100% - 2rem); /* Single card per row */
+  }
+}
+
+/* footer */
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.wrapper3 {
+  background-color: rgb(35, 177, 125);
+  width: 50%;
+  /* height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  border-radius: 12px;
+}
+.tcontainer-input {
+  margin-left: 4rem;
+  background-color: white;
+  padding: .8rem;
+  border-radius: 25px;
+  width: 80%;
+}
+
+
+/* footer_snip_css */
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:block;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); 
+  body {  
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+  }  
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --flex-direction:  initial;  
+    --flex-wrap:  initial;  
+    --justify-content:  initial;  
+    --align-items:  initial;  
+    --align-content:  initial;  
+    --gap:  initial;  
+    --flex-basis:  initial;  
+    --flex-grow:  initial;  
+    --flex-shrink:  initial;  
+    --order:  initial;  
+    --align-self:  initial;  
+} 
+
+* { 
+    box-sizing: border-box;
+} 
+
+body { 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #212529; 
+    text-align: left; 
+    background-color: #fff;
+} 
+
+body { 
+    overflow-x: hidden; 
+    color: #555; 
+    -webkit-font-smoothing: antialiased !important;
+} 
+
+body { 
+    font-family: "Rubik",sans-serif; 
+    line-height: 26px; 
+    font-size: 16px; 
+    color: #555; 
+    font-weight: 400; 
+    border: 0; 
+    margin: 0; 
+    padding: 0; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+body { 
+    font-family: "Rubik"; 
+    font-size: 16px;
+} 
+
+body { 
+    background-color: #fff;
+} 
+
+html { 
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -ms-overflow-style: scrollbar; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+section { 
+    display: block;
+} 
+
+.elementskit-parallax-multi-container { 
+    transition: none!important;
+} 
+
+*  { 
+    box-sizing: border-box;
+} 
+
+.elementor-element { 
+    --flex-direction: initial; 
+    --flex-wrap: initial; 
+    --justify-content: initial; 
+    --align-items: initial; 
+    --align-content: initial; 
+    --gap: initial; 
+    --flex-basis: initial; 
+    --flex-grow: initial; 
+    --flex-shrink: initial; 
+    --order: initial; 
+    --align-self: initial; 
+    flex-basis: var(--flex-basis); 
+    flex-grow: var(--flex-grow); 
+    flex-shrink: var(--flex-shrink); 
+    order: var(--order); 
+    align-self: var(--align-self);
+} 
+
+.elementor-section { 
+    position: relative;
+} 
+
+.mf-form-wrapper section { 
+    padding-top: 0; 
+    padding-bottom: 0;
+} 
+
+.elementor-element.elementor-element-280b  { 
+    margin-top: 0; 
+    margin-bottom: -150px; 
+    padding: 0; 
+    z-index: 2; 
+    overflow: visible;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+* , .elementor ::after, .elementor ::before { 
+    box-sizing: border-box;
+} 
+
+.elementor *, .elementor ::after, .elementor ::before { 
+    box-sizing: border-box;
+} 
+
+.elementor-section .elementor-container  { 
+    display: flex; 
+    margin-right: auto; 
+    margin-left: auto; 
+    position: relative;
+} 
+
+.elementor-section.elementor-section-boxed > .elementor-container  { 
+    max-width: 1140px;
+} 
+
+.elementor-column { 
+    position: relative; 
+    min-height: 1px; 
+    display: flex;
+} 
+
+@media (min-width: 768px){ 
+  .elementor-column.elementor-col-100 { 
+    width: 100%;
+  } 
+}     
+
+.elementor-widget-wrap { 
+    position: relative; 
+    width: 100%; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
+} 
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap  { 
+    display: flex;
+} 
+
+.elementor-element.elementor-element-bda > .elementor-element-populated  { 
+    margin: 0 15px; 
+    padding: 0;
+} 
+
+.elementor-widget-wrap > .elementor-element  { 
+    width: 100%;
+} 
+
+.elementor-element.elementor-element-1993  { 
+    border-radius: 15px;
+} 
+
+.elementor-element.elementor-element-1993  { 
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s; 
+    padding: 50px; 
+    overflow: visible;
+} 
+
+.elementor-element.elementor-element-1993:not(.elementor-motion-effects-element-type-background)  { 
+    background-color: #0eb582;
+} 
+
+.elementor-background-overlay  { 
+    height: 100%; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    position: absolute;
+} 
+
+.elementor-element.elementor-element-1993 > .elementor-background-overlay  { 
+    background-image: url("https://demo-themewinter.com/turitor/wp-content/uploads/2019/11/newsletter_bg.png"); 
+    background-position: center center; 
+    background-size: cover; 
+    transition: background .3s,border-radius .3s,opacity .3s;
+} 
+
+.elementor-element.elementor-element-1993 > .elementor-background-overlay  { 
+    border-radius: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .elementor-column.elementor-col-50 { 
+    width: 50%;
+  } 
+}     
+
+.elementor-column-gap-extended > .elementor-column > .elementor-element-populated  { 
+    padding: 15px;
+} 
+
+.elementor-element.elementor-element-2f64 > .elementor-element-populated  { 
+    margin: 7px 0 0; 
+} 
+
+.elementor-element.elementor-element-67fadcf > .elementor-element-populated  { 
+    border-radius: 15px;
+} 
+
+.elementor-element.elementor-element-67fadcf > .elementor-element-populated  { 
+    margin: 50px 0 0; 
+} 
+
+.elementor-element:where(.e-con-full, .elementor-widget) { 
+    flex-direction: var(--flex-direction); 
+    flex-wrap: var(--flex-wrap); 
+    justify-content: var(--justify-content); 
+    align-items: var(--align-items); 
+    align-content: var(--align-content); 
+    gap: var(--gap);
+} 
+
+.elementor-widget { 
+    position: relative;
+} 
+
+.elementor-widget:not(:last-child) { 
+    margin-bottom: 20px;
+} 
+
+.elementor-element.elementor-absolute { 
+    z-index: 1;
+} 
+
+.elementor-widget-wrap > .elementor-element.elementor-absolute  { 
+    position: absolute;
+} 
+
+.elementor-widget-wrap .elementor-element.elementor-widget__width-auto  { 
+    max-width: 100%;
+} 
+
+.elementor-element.elementor-element-e10c340  { 
+    width: auto; 
+    max-width: auto; 
+    top: 25px;
+} 
+
+.elementor-element.elementor-element-e10c340  { 
+    right: 24px;
+} 
+
+.elementor-element .elementor-widget-container  { 
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+} 
+
+h2 { 
+    margin-top: 0; 
+    margin-bottom: .5rem;
+} 
+
+h2 { 
+    margin-bottom: .5rem; 
+    font-weight: 500; 
+    line-height: 1.2; 
+    color: inherit;
+} 
+
+h2 { 
+    font-size: 2rem;
+} 
+
+h2 { 
+    color: #333; 
+    font-weight: 700;
+} 
+
+h2 { 
+    font-size: 36px; 
+    line-height: 42px;
+} 
+
+h2 { 
+    font-weight: 700;
+} 
+
+.elementor-heading-title { 
+    padding: 0; 
+    margin: 0; 
+    line-height: 1;
+} 
+
+.elementor-widget-heading .elementor-heading-title  { 
+    color: var(--e-global-color-primary); 
+    font-weight: var(--e-global-typography-primary-font-weight);
+} 
+
+.elementor-element.elementor-element-1ffc627 .elementor-heading-title  { 
+    color: #fff; 
+    font-size: 17px;
+} 
+
+.elementor-element.elementor-element-0b5b6b9 .elementor-heading-title  { 
+    color: #fff; 
+    font-size: 42px; 
+    font-weight: 700; 
+    line-height: 50px; 
+    letter-spacing: -.42px;
+} 
+
+.elementor-widget-mf-email .mf-input-wrapper  { 
+    border-color: var(--e-global-color-primary);
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input-wrapper  { 
+    border-color: #000;
+} 
+
+.elementor-element.elementor-element-e10c340 .mf-btn-wraper  { 
+    text-align: center;
+} 
+
+input { 
+    margin: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+input { 
+    overflow: visible;
+} 
+
+input { 
+    -moz-outline: none; 
+    outline: none;
+} 
+
+input[type="email"] { 
+    border: 1px solid #eaeaea; 
+    border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+    -ms-border-radius: 6px; 
+    font-size: 14px; 
+    background: #fff;
+} 
+
+.elementor-widget-mf-email .mf-input  { 
+    color: var(--e-global-color-primary);
+} 
+
+.elementor-widget-mf-email .mf-input  { 
+    font-weight: var(--e-global-typography-primary-font-weight);
+} 
+
+.mf-input-wrapper .mf-input  { 
+    width: 100%; 
+    max-width: 100%; 
+    padding: 12px; 
+    height: auto; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #eaeaea; 
+    border-radius: 2px; 
+    background: 0 0; 
+    background-color: #fafafa; 
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-transition: all .2s linear; 
+    transition: all .2s linear; 
+    font-size: 14px; 
+    line-height: 21px; 
+    text-align: left;
+} 
+
+.mf-input-wrapper .mf-input  { 
+    vertical-align: middle;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    padding: 20px 50px 20px 30px; 
+    border-radius: 36px;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    color: #101010;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    background-color: #fff;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ededed;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    font-family: "Rubik",Sans-serif; 
+    font-size: 17px; 
+    font-weight: 400; 
+    line-height: 28px;
+} 
+
+.elementor-element.elementor-element-841e36f .mf-input  { 
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,.05);
+} 
+
+.mf-input-wrapper .mf-input  { 
+    font-size: 16px; 
+    -webkit-appearance: none;
+} 
+
+button { 
+    border-radius: 0;
+} 
+
+button { 
+    margin: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+button { 
+    overflow: visible;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+[type="submit"],button { 
+    -webkit-appearance: button;
+} 
+
+.metform-btn { 
+    background-color: #4285f4; 
+    border: none; 
+    -webkit-box-shadow: 0 5px 5px 0 rgba(66,133,244,.3); 
+    box-shadow: 0 5px 5px 0 rgba(66,133,244,.3); 
+    display: inline-block; 
+    max-width: 100%; 
+    padding: 16px 40px; 
+    font-size: 16px; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    line-height: 18px; 
+    -webkit-transition: all .4s; 
+    transition: all .4s; 
+    font-weight: 500; 
+    text-decoration: none;
+} 
+
+.metform-submit-btn { 
+    position: relative; 
+    z-index: 0;
+} 
+
+button.metform-btn,button.metform-btn:not(.toggle) { 
+    background-color: #4285f4;
+} 
+
+.elementor-element.elementor-element-e10c340 .metform-btn  { 
+    padding: 14px 35px 12px; 
+    font-size: 14px; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    line-height: 25px; 
+    color: #fff; 
+    background-color: #273c66; 
+    border-style: none; 
+    border-radius: 36px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
+} 
+
+.metform-submit-btn:after,.metform-submit-btn:before { 
+    content: " "; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 22px; 
+    height: 22px; 
+    margin: -11px 0 0 -11px; 
+    border-style: solid; 
+    border-color: currentColor; 
+    border-width: 0; 
+    border-radius: 50%; 
+    opacity: 0; 
+    -webkit-transition: opacity .3s ease; 
+    transition: opacity .3s ease;
+} 
+
+.metform-submit-btn:before { 
+    border-width: 2px;
+} 
+
+.metform-submit-btn:after { 
+    border-top-width: 2px; 
+    -webkit-animation: submitspin .55s linear infinite; 
+    animation: submitSpin .55s linear infinite;
+} 
+
+.metform-btn:hover { 
+    background-color: #4285f4; 
+    text-decoration: none; 
+    outline: 0;
+} 
+
+button.metform-btn:hover { 
+    background-color: #4285f4;
+} 
+
+.elementor-1136 .elementor-element.elementor-element-e10c340 .metform-btn:hover { 
+    color: #fff; 
+    background-color: #0eb582;
+} 
+
+.fas { 
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased; 
+    display: inline-block; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-rendering: auto; 
+    line-height: 1;
+} 
+
+.fas { 
+    font-family: "Font Awesome 5 Free";
+} 
+
+.fas { 
+    font-weight: 900;
+} 
+
+.fas { 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+} 
+
+.elementor-widget-mf-button .mf-btn-wraper i  { 
+    color: var(--e-global-color-primary);
+} 
+
+.elementor-element.elementor-element-e10c340 .mf-btn-wraper i  { 
+    color: #fff;
+} 
+
+.elementor-element.elementor-element-e10c340 .mf-btn-wraper i  { 
+    font-size: 15px;
+} 
+
+.fa-envelope:before { 
+    content: "\f0e0";
+} 
+
+.metform-submit-btn > span  { 
+    -webkit-transition: opacity .15s ease .15s; 
+    transition: opacity .15s ease .15s;
+} 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+@font-face { 
+  font-family:"Font Awesome 5 Brands";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.woff2) format("woff2"),url(/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-brands-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:block;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Brands";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-brands-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.woff2) format("woff2"),url(/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/learnpress/assets/src/css/vendor/fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Brands";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot);
+  src:url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://demo-themewinter.comhttps://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"),url(/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff) format("woff"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"),url(https://demo-themewinter.com/turitor/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg");
+} 
+  body {  
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+  }  
+* { 
+    box-sizing: border-box;
+} 
+
+body { 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #212529; 
+    text-align: left; 
+    background-color: #fff;
+} 
+
+body { 
+    overflow-x: hidden; 
+    color: #555; 
+    -webkit-font-smoothing: antialiased !important;
+} 
+
+body { 
+    font-family: "Rubik",sans-serif; 
+    line-height: 26px; 
+    font-size: 16px; 
+    color: #555; 
+    font-weight: 400; 
+    border: 0; 
+    margin: 0; 
+    padding: 0; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+body { 
+    font-family: "Rubik"; 
+    font-size: 16px;
+} 
+
+body { 
+    background-color: #fff;
+} 
+
+html { 
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -ms-overflow-style: scrollbar; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+*  { 
+    box-sizing: border-box;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+* , .elementor ::after, .elementor ::before { 
+    box-sizing: border-box;
+} 
+
+.elementor *, .elementor ::after, .elementor ::before { 
+    box-sizing: border-box;
+} 
+
+.container { 
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+@media (min-width: 576px){ 
+  .container { 
+    max-width: 540px;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .container { 
+    max-width: 720px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container { 
+    max-width: 960px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container { 
+    max-width: 1140px;
+  } 
+}     
+
+footer { 
+    display: block;
+} 
+
+.ts-footer { 
+    background: #273c66;
+} 
+
+.ts-footer { 
+    background-color: #273c66; 
+    padding-top: 200px;
+} 
+
+.ts-footer .footer-bar  { 
+    width: 100%; 
+    height: 1px; 
+    background: #2d436f;
+} 
+
+.row { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    margin-right: -15px; 
+    margin-left: -15px;
+} 
+
+.ts-footer .copyright  { 
+    padding: 30px 0;
+} 
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap { 
+    display: flex;
+} 
+
+.col-lg-3,.col-md-6,.col-sm-12 { 
+    position: relative; 
+    width: 100%; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+@media (min-width: 576px){ 
+  .col-sm-12 { 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 100%; 
+    flex: 0 0 100%; 
+    max-width: 100%;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .col-md-6 { 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 50%; 
+    flex: 0 0 50%; 
+    max-width: 50%;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .col-lg-3 { 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 25%; 
+    flex: 0 0 25%; 
+    max-width: 25%;
+  } 
+}     
+
+.col-md-2 { 
+    position: relative; 
+    width: 100%; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .col-md-2 { 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 16.666667%; 
+    flex: 0 0 16.666667%; 
+    max-width: 16.666667%;
+  } 
+}     
+
+.align-self-center { 
+    -ms-flex-item-align: center!important; 
+    align-self: center!important;
+} 
+
+.col-md-5 { 
+    position: relative; 
+    width: 100%; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .col-md-5 { 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 41.666667%; 
+    flex: 0 0 41.666667%; 
+    max-width: 41.666667%;
+  } 
+}     
+
+.elementor-element.elementor-element-1993:not(.elementor-motion-effects-element-type-background)  { 
+    background-color: #0eb582;
+} 
+
+.footer-widget { 
+    margin-bottom: 40px;
+} 
+
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+    background-color: transparent; 
+    -webkit-text-decoration-skip: objects;
+} 
+
+a { 
+    color: #0eb582; 
+    transition: all .4s ease; 
+    -webkit-transition: all .4s ease; 
+    -moz-transition: all .4s ease; 
+    -ms-transition: all .4s ease;
+} 
+
+a { 
+    color: #0eb582;
+} 
+
+a:visited { 
+    text-decoration: none; 
+    outline: 0;
+} 
+
+a:hover { 
+    color: #0056b3; 
+    text-decoration: underline;
+} 
+
+a:active { 
+    -moz-outline: none; 
+    outline: none;
+} 
+
+a:active,a:hover,a:visited { 
+    text-decoration: none; 
+    outline: 0;
+} 
+
+a:hover { 
+    text-decoration: none; 
+    color: #0eb582;
+} 
+
+a:hover { 
+    color: #0eb582;
+} 
+
+p { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+p { 
+    margin: 0 0 25px;
+} 
+
+.ts-footer .copyright-text  { 
+    margin-bottom: 0; 
+    color: #fff;
+} 
+
+.copyright .copyright-text  { 
+    color: #fff;
+} 
+
+h3 { 
+    margin-top: 0; 
+    margin-bottom: .5rem;
+} 
+
+h3 { 
+    margin-bottom: .5rem; 
+    font-family: inherit; 
+    font-weight: 500; 
+    line-height: 1.2; 
+    color: inherit;
+} 
+
+h3 { 
+    font-size: 1.75rem;
+} 
+
+h3 { 
+    color: #333; 
+    font-family: "Roboto",sans-serif; 
+    font-weight: 700;
+} 
+
+h3 { 
+    font-size: 30px; 
+    margin-bottom: 20px;
+} 
+
+h3 { 
+    font-weight: 700;
+} 
+
+.widget-title { 
+    font-size: 20px; 
+    line-height: 26px;
+} 
+
+.footer-widget .widget-title  { 
+    font-size: 18px; 
+    line-height: 26px; 
+    color: #fff; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: -.18px;
+} 
+
+img { 
+    vertical-align: middle; 
+    border-style: none;
+} 
+
+img { 
+    -ms-interpolation-mode: bicubic; 
+    border: 0; 
+    height: auto; 
+    max-width: 100%; 
+    vertical-align: middle;
+} 
+
+.ts-footer .footer-logo img  { 
+    max-width: 125px;
+} 
+
+@media (min-width: 992px){ 
+  .ts-footer .footer-logo img  { 
+    margin-top: -17px;
+  } 
+}     
+
+ul { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+.ts-footer .footer-menu  { 
+    padding: 0; 
+    margin: 0; 
+    text-align: right;
+} 
+
+.footer-widget ul  { 
+    padding: 0;
+} 
+
+.ts-footer .footer-menu li  { 
+    display: inline-block; 
+    list-style-type: none;
+} 
+
+.footer-widget ul li  { 
+    font-size: 16px; 
+    line-height: 36px; 
+    letter-spacing: -.16px; 
+    color: #a5b7d9; 
+    display: block; 
+    list-style: none; 
+    padding-left: 20px; 
+    position: relative;
+} 
+
+.footer-widget ul li::before { 
+    position: absolute; 
+    left: 0; 
+    top: 15px; 
+    width: 6px; 
+    height: 2px; 
+    background: #384f7d; 
+    content: "";
+} 
+
+.footer-widget .ts-social-list li  { 
+    display: inline-block; 
+    padding-left: 0;
+} 
+
+.footer-widget .ts-social-list li::before { 
+    display: none;
+} 
+
+.nav-link { 
+    display: block; 
+    padding: .5rem 1rem;
+} 
+
+.ts-footer .footer-menu li a  { 
+    font-size: 16px; 
+    line-height: 36px; 
+    color: #fff;
+} 
+
+ a:hover { 
+    color: #0056b3; 
+    text-decoration: underline;
+} 
+
+a:active,a:hover { 
+    text-decoration: none; 
+    outline: 0;
+} 
+
+ a:hover { 
+    text-decoration: none; 
+    color: #0eb582;
+} 
+
+.nav-link:hover { 
+    text-decoration: none;
+} 
+
+.ts-footer .footer-menu li a:hover { 
+    color: #0eb582;
+} 
+
+a:hover, .ts-footer .footer-menu li a:hover { 
+    color: #0eb582;
+} 
+
+.copyright .footer-social li a i:hover, .copyright .copyright-text a, .header .navbar-container .navbar-light .main-menu li a:hover, .header .navbar-container .navbar-light .main-menu li.active > a, .post .entry-header .entry-title a:hover, a:hover, .header-cd-menu .cat-menu li a:hover, .ts-course-category .single-course-category .course-category-title a:hover, .tab-course-category ul li.active, .turitor-events .entry-header .entry-title a:hover, .post .post-footer a:hover, .woocommerce ul.products li.product .price, .footer-widget ul li a:hover, .ts-footer .footer-menu li a:hover, .turitor-course-latest h3.post-title a:hover, .course-sidebar .course-intro ul li i, .turitor-course-latest p, .turitor-learndash-course .ld-single-course .ld-course-conent:hover .ts-title a, .ld-related-course .ld-single-course .ld-course-conent:hover .ts-title a, .turitor-learndash-course .ld-single-course .ld-course-footer .ld-course-read-more:hover a, .ld-related-course .ld-single-course .ld-course-footer .ld-course-read-more:hover a, .course-tabs-content .curriculum-content .curricolumn-list li a i, .course-tabs-content .curriculum-content .curricolumn-list li a:hover, .co-single-instructor .co-instructor-title a:hover, .course-tabs-content .curriculum-content .curriculmn-title::after, .post-navigation span:hover, .post-navigation h3:hover, .comments-list .comment-reply-link:hover, .tutor-custom-list-style li::before, .ld-tabs .ld-tabs-navigation .ld-tab.ld-active span, .tutor-wrap .tutor-single-course-segment .tutor-course-topics-contents .tutor-course-topic.tutor-active .tutor-course-title h4, .tutor-wrap .tutor-single-course-sidebar .tutor-price-preview-box .price, .sideabr-list-widget li i, .turitor-tab .turitor-navs-tab li a .title-content .title-icon, .user-dashboard .lp-profile-content table td a:hover, .user-dashboard .lp-profile-content table th a:hover, .user-dashboard .lp-profile-content .lp-list-table td a:hover, .user-dashboard .lp-profile-content .lp-list-table th a:hover, #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:hover, #learn-press-profile #profile-nav .lp-profile-nav-tabs li.active > ul .active > a, .woocommerce ul.products li.product .woocommerce-loop-product__title:hover { 
+    color: #0eb582;
+} 
+
+.elementor-element:where(.e-con-full, .elementor-widget) { 
+    flex-direction: var(--flex-direction); 
+    flex-wrap: var(--flex-wrap); 
+    justify-content: var(--justify-content); 
+    align-items: var(--align-items); 
+    align-content: var(--align-content); 
+    gap: var(--gap);
+} 
+
+.elementor-widget:not(:last-child) { 
+    margin-bottom: 20px;
+} 
+
+.footer-widget ul li a  { 
+    color: #a5b7d9;
+} 
+
+.footer-widget ul li a:hover { 
+    color: #0eb582;
+} 
+
+.footer-widget .ts-social-list li a  { 
+    color: #fff; 
+    font-size: 13px;
+} 
+
+.fa { 
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased; 
+    display: inline-block; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-rendering: auto; 
+    line-height: 1;
+} 
+
+.fa { 
+    font-family: "Font Awesome 5 Free";
+} 
+
+.fa { 
+    font-weight: 900;
+} 
+
+.fa { 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+} 
+
+.fa.fa-facebook { 
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+} 
+
+.footer-widget .ts-social-list li a i  { 
+    display: block; 
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    -ms-border-radius: 50%; 
+    border: 1px solid #32476f; 
+    text-align: center; 
+    line-height: 35px; 
+    transition: all .4s ease; 
+    -webkit-transition: all .4s ease; 
+    -moz-transition: all .4s ease; 
+    -ms-transition: all .4s ease;
+} 
+
+.fa-facebook:before { 
+    content: "\f09a";
+} 
+
+.fa.fa-facebook:before { 
+    content: "\f39e";
+} 
+
+.fa.fa-twitter { 
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+} 
+
+.fa-twitter:before { 
+    content: "\f099";
+} 
+
+.fa.fa-pinterest-p { 
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+} 
+
+.fa-pinterest-p:before { 
+    content: "\f231";
+} 
+
+.fa.fa-instagram { 
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+} 
+
+.fa-instagram:before { 
+    content: "\f16d";
+} 
+/* XXXXXXXXXXXXXXXXXXXXXx  */
+
+.title{
+  text-align: center;
+  color: rgb(8, 8, 84);
+}
+
+.card{
+  border-radius: 12px;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: calc(33.3333% - 2rem); /* Adjust for three cards per row */
+}
+
+.card:nth-child(3n) {
+  margin-right: 0; /* No right margin for every third card */
+}
+
+.card-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.p-img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.card-desc{
+  margin-bottom: 1rem;
+}
+
+.card-bottom{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 45px;
+  width: 45px;
+  margin-right: 1rem;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+  .card {
+      width: calc(25% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+      width: calc(50% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+  .card {
+      width: calc(75% - 2rem); /* Adjust for two cards per row */
+  }
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 480px) {
+  .card {
+      width: calc(100% - 2rem); /* Single card per row */
+  }
+}
+
+/* accordian */
+.accordion {
+  max-width: 80%;
+  margin: 20px auto;
+}
+.accordion-section {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 8px; /* Add this line */
+}
+.accordion-section-header {
+  background: linear-gradient(to right, #1dc08f, #c1f3e6);
+  padding: 30px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 30px;
+  color: rgb(28, 37, 92);
+  font-style: italic;
+  font-weight: bold;
+  display: flex; /* Add this line */
+  flex-direction: column; /* Add this line */
+  align-items: center; /* Add this line */
+}
+.accordion-section-header .compare-packages {
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  background: none;
+  cursor: default;
+  padding: 0;
+  font-size: 8px;
+}
+
+.accordion-section-header .arrow {
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  background: none;
+  cursor: default;
+  padding: 0;
+  font-size: 8px;
+}
+.accordion-section-content {
+  display: none;
+  padding: 10px;
+  background-color: #f8f0e4;
+  max-height: 8800px; /* Adjust the maximum height as needed */
+}
+/* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* TABLE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.accordion table {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden; /* Add this line */
+}
+
+.accordion table thead {
+  overflow: hidden; /* add this */
+}
+
+.accordion table tbody {
+  border: none; /* Remove border around the table body */
+  border-radius: 10px; /* Adjust this value to your preference */
+}
+.accordion table tbody tr td:first-child {
+  font-size: 1rem;
+  text-align: left;
+  background-color: #4f8796;
+  color: white;
+}
+
+/* Apply green border to all <td> elements except the first one in each row */
+.accordion table tbody tr td:not(:first-child) {
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.accordion table thead {
+  transition: box-shadow 0.2s;
+}
+
+.accordion table tr {
+  display: flex;
+}
+.accordion table th {
+  background-color: #f8f0e4;
+}
+.accordion table th,
+.accordion table td {
+  width: 25%;
+  min-width: 150px;
+  border: 10px solid #4f8796;
+}
+
+.accordion table th:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  padding: 0 10px;
+}
+
+.accordion table th:nth-child(1) .svg-wrapper {
+  margin-top: 10px;
+}
+
+.accordion table th:nth-child(1) svg {
+  width: 22px;
+  height: 22px;
+}
+
+.accordion table th .heading {
+  padding: 1rem;
+  color: black;
+}
+
+.accordion table th .amount {
+  font-size: 2rem;
+  color: black; /* Use the same color for all amounts */
+}
+
+.accordion table svg {
+  width: 18px;
+  height: 18px;
+  fill: #328ba0; /* Use the same color for all SVGs */
+}
+.special-svg {
+  fill: #95cad0; /* Specify the new color for these specific SVGs */
+}
+
+.accordion table th button {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 4px 6px; /* Reduced padding to decrease button width */
+  margin-top: 10px;
+  transition: all 0.2s;
+  color: #4f8796; /* Change button text to white */
+  background: #e2e5dd; /* Fill the button with light grey color */
+  border: 1px solid grey;
+  font-size: 0.8rem; /* Reduced font size */
+  font-weight: bold; /* Make button text bold */
+}
+.accordion table td {
+  padding: 10px;
+  background-color: white;
+}
+.accordion table td:not(:first-child) {
+  border-left: none;
+}
+.accordion table td:first-child {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.accordion table svg {
+  width: 18px;
+  height: 18px;
+}
+
+.accordion table,
+.accordion table tr,
+.accordion table th,
+.accordion table td {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+/* Apply hover effect to table cells within the same column */
+.accordion .table-border-indicator {
+  position: absolute;
+  border-bottom: 2px solid #007bff; /* Adjust the color and style of the border */
+  top: 0; /* Position at the top of its container */
+  left: 0; /* Align with the left edge of its container */
+  z-index: 1; /* Ensure it appears above the table */
+}
+/* Apply hover effect to table cells within the same column */
+.accordion table th,
+.accordion table td {
+  transition: background-color 0.3s ease;
+}
+
+/* Apply hover effect to hovered column headers and cells */
+.accordion table th.column-hovered,
+.accordion table td.column-hovered {
+  background-color: #4f8796;
+}
+/* BODY CLASSES & MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sticky-table thead tr,
+.sticky2-table thead tr {
+  z-index: 1;
+}
+
+@media screen and (min-width: 780px) {
+  .accordion section:nth-child(1),
+  section:nth-child(3) {
+    padding: 0;
+  }
+
+  .accordion section:nth-child(1) {
+    height: 70vh;
+  }
+
+  .accordion section:nth-child(3) {
+    height: 100vh;
+  }
+
+  .accordion table th:nth-child(1) {
+    padding: 0 20px;
+  }
+
+  .accordion table td {
+    padding: 20px;
+  }
+
+  .accordian .sticky-table table thead {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .accordian .sticky-table table thead {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+  }
+
+  .accordian .sticky2-table table thead {
+    position: absolute;
+    left: 0;
+  }
 }

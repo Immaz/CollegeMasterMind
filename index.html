@@ -14,6 +14,11 @@
   <script src="app.js"></script>
 </head>
 <body>
+    <style>
+        body{
+            font-family: Verdana;
+        }
+    </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
     <div class="container-fluid">
       <h3>Logo</h3>
@@ -318,6 +323,156 @@
     </div>
     </div>
   </div>
+  <div class="accordion">
+    <div class="accordion-section">
+       <div class="accordion-section-header">
+          Need help in choosing the right program?
+          <div class="compare-packages">Compare All Packages</div>
+          <div class="arrow">v</div>
+       </div>
+       <div class="accordion-section-content" style="display: block;">
+          <div class="container">
+             <div class="table-wrapper">
+                <div id="table-container">
+                   <table id="data-table" class="rounded-table">
+                      <thead>
+                         <tr>
+                            <th>
+                               <div>
+                                  Simple Pricing
+                               </div>
+                            </th>
+                            <th>
+                               <div class="heading">Basic</div>
+                               <div class="info">
+                                  <div class="amount">$23</div>
+                                  <button type="button">Choose Plan</button>
+                               </div>
+                            </th>
+                            <th class="">
+                               <div class="heading" style="">Premium</div>
+                               <div class="info">
+                                  <div class="amount" style="">$33</div>
+                                  <button type="button">Choose Plan</button>
+                               </div>
+                            </th>
+                            <th class="">
+                               <div class="heading" style="">Startup</div>
+                               <div class="info">
+                                  <div class="amount" style="">$43</div>
+                                  <button type="button">Choose Plan</button>
+                               </div>
+                            </th>
+                            <th class="">
+                               <div class="heading" style="">Pro</div>
+                               <div class="info">
+                                  <div class="amount" style="">$22</div>
+                                  <button type="button">Choose Plan</button>
+                               </div>
+                            </th>
+                         </tr>
+                      </thead>
+                      <tbody style="border: 6px solid rgb(79, 135, 150); border-radius: 10px; overflow: hidden; display: block;">
+                         <tr>
+                            <td>All limited Links</td>
+                            <td>
+                               <svg class="Basic" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Premium" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Startup" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Pro" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>Chat Support</td>
+                            <td>
+                               <svg class="Basic" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Premium" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Startup" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Pro" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>24/7 Support </td>
+                            <td>
+                               <svg class="special-svg" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="special-svg" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Startup" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Pro" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>Unlimited Bandwith</td>
+                            <td>
+                               <svg class="special-svg" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="special-svg" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Startup" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                            <td class="">
+                               <svg class="Pro" viewBox="0 0 24 24">
+                                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                               </svg>
+                            </td>
+                         </tr>
+                      </tbody>
+                   </table>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
   <h2 class="breaker-heading">Our Services</h2>
   <div class="services container d-none">
     <div class="d-flex justify-content-around">
@@ -470,23 +625,210 @@
         <div class="col-md-6">
             <iframe width="560" height="315" src="//www.youtube.com/embed/4TIvB8zDFio" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-md-6 text-center mt-4">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="text-center">
             <h3 style="color: #0EB582;">We go Beyond <br> Admissions</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quibusdam optio aliquid labore cum necessitatibus, odit ad voluptate minus illum libero hic odio alias voluptatum, architecto dolores ab tempora aperiam.</p>
+          </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 text-center mt-4 p-4" style="background-color: #D8EFFC;">
+    <div class="d-flex justify-content-center mt-4 p-2">
+        <div class="col-md-6 text-center p-4" style="background-color: #D8EFFC; border-radius: 20px;">
             <h3 style="color: #222161;" class="mx-3">Ready to get help with <br> admissions?</h3>
             <img src="./images/guy_on_pc.png" alt="">
             <button class="our-btn-primary mt-3">Schedule a consultation</button>
         </div>
-        <div class="col-md-6 p-4 text-center" style="background-color: #222161; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <div class="col-md-6 p-4 text-center ml-3" style="background-color: #222161; display: flex; justify-content: center; align-items: center; flex-direction: column; border-radius: 20px;">
             <h3 style="color: #fff;" class="mx-3">See a comprehensive <br>list of all of our services </h3>
+            <img src="./images/123_burger_icon.png" class="my-2" alt="">
             <button class="our-btn-primary mt-3">All of Our Services</button>
         </div>
     </div>
  </div>
-  <br><br><br><br><br><br>
+ 
+ <section>
+  <h2 class="breaker-heading">Our Clients Experience</h2>
+  <div class="wrapper">
+
+
+    <div class="card">
+
+      <div class="card-top">
+        <img class="p-img" src="/images/images.jpg" alt="profile">
+        <span class="name">Client Name</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> [Client Name]</button>
+      </div>
+
+    </div>
+
+    <div class="card">
+      
+      <div class="card-top">
+        <img class="p-img" src="/images/images.jpg" alt="profile">
+        <span class="name">Client Name</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> [Client Name]</button>
+      </div>
+
+    </div>
+
+    <div class="card">
+      
+      <div class="card-top">
+        <img class="p-img" src="/images/images.jpg" alt="profile">
+        <span class="name">Client Name</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> [Client Name]</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <section class="elementor-section elementor-element elementor-element-280b elementor-section-boxed elementskit-parallax-multi-container">
+    <div class="elementor-container">
+        <div class="elementor-column elementor-col-100 elementor-element elementor-element-bda">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <section class="elementor-section elementor-element elementor-element-1993 elementor-section-boxed elementskit-parallax-multi-container">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-extended">
+                        <div class="elementor-column elementor-col-50 elementor-element elementor-element-2f64">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-1ffc627 elementor-widget elementor-widget-heading">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title">#Newsletter</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-0b5b6b9 elementor-widget elementor-widget-heading">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title">Join our community of students</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-element elementor-element-67fadcf">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-841e36f elementor-widget elementor-widget-mf-email">
+                                    <div class="elementor-widget-container">
+                                        <div class="mf-input-wrapper"><input type="email" class="mf-input " id="mf-input-email-841e36f" name="mf-email" placeholder="Enter  your email " value=""></div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-e10c340 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-mf-button">
+                                    <div class="elementor-widget-container">
+                                        <div class="mf-btn-wraper "><button type="submit" class="metform-btn metform-submit-btn " id=""><i class="fas fa-envelope"></i> <span>Subscribe </span></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="ts-footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Company</h3>
+                  <div>
+                      <ul class="menu">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Resource center</a></li>
+                          <li><a href="#">Guides</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Categories</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">All Courses</a></li>
+                          <li><a href="#">Digital Marketing</a></li>
+                          <li><a href="#">Design &amp; Branding</a></li>
+                          <li><a href="#">Storytelling &amp; Voice Over</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Support</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="#">System Requirements</a></li>
+                          <li><a href="#">Register Activation Key</a></li>
+                          <li><a href="#">Site feedback</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Get in touch</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">Contact Support</a></li>
+                          <li><a href="#">Help Center </a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="footer-widget">
+                  <div class="footer-social">
+                      <ul class="ts-social-list">
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bar"> </div>
+      <div class="row copyright">
+          <div class="col-md-2 align-self-center">
+              <a class="footer-logo" href="https://demo-themewinter.com/turitor/">
+                  <img src="https://demo-themewinter.com/turitor/wp-content/uploads/2020/02/white-logo.png"><noscript><img src="//demo-themewinter.com/turitor/wp-content/uploads/2020/02/white-logo.png" alt="Turitor"></noscript>
+              </a>
+          </div>
+          <div class="col-md-5 align-self-center">
+              <p class="copyright-text"> Copyright © 2024 College Mastermind. Right Reserved. </p>
+          </div>
+          <div class="col-md-5 align-self-center">
+              <div>
+                  <ul id="footer-menu" class="footer-menu">
+                      <li><a href="#" class="nav-link">About</a></li>
+                      <li><a href="#" class="nav-link">Careers</a></li>
+                      <li><a href="#" class="nav-link">Resource center</a></li>
+                      <li><a href="#" class="nav-link">Guides</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
 </body>
 </html>
