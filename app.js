@@ -167,3 +167,5 @@ function addRoundedBorderToTable() {
 document.addEventListener("DOMContentLoaded", () => {
   addRoundedBorderToTable();
 });
+
+

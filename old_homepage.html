@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./external.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Verdana;
+        }
+    </style>
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="./images/header_logo.png" alt="">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About Us <i class="fa fa-angle-down"></i></a>
+          <a class="nav-link" href="#">Our Services <i class="fa fa-angle-down"></i></a>
+          <a class="nav-link" href="#">Countries <i class="fa fa-angle-down"></i></a>
+          <a class="nav-link" href="#">Partnership</a>
+          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="#" style="border-right: 1px solid #486284; height: fit-content;">Contact Us</a>
+          <a class="nav-link" href="#"><span style="text-decoration: underline;">Register</span></a>
+          <button class="nav-btn">Login</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="row home" style="margin-left: 0px; margin-right: 0px;">
+    <div class="container main-box">
+        <div class="col-md-6">
+            <small class="hashtags">#CollegeMastermind</small>
+            <h2 class="sec-title">Take the Guesswork Out of College Admissions.</h2>
+            <p class="sec-sub-title">Get predictable results and more acceptances at <br> selective universities with a data-driven approach.</p>
+            <div class="d-none">
+                <button class="our-btn-primary"><i class="fas fa-plus-circle"></i> View Packages</button>
+                <button class="our-btn-secondary ml-3"><i class="fas fa-envelope"></i> Contact Us</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/4TIvB8zDFio" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+  <div class="cta text-center">
+    
+    <div class="cta-inner">
+        <img style="margin-top: -200px;" src="./images/brand-arrow-right-bottom.png" alt="">
+        <h4 style="color: #00a0f1; font-weight: lighter; ">GET INSTANT ACCESS TO THE FREE TRAINING:</h4>
+        <h4 style="font-weight: bold;"  class="my-4">Why Prospects Push Back on Price, 
+            Give 'Think-It-Overs,' and Ghost in Sales Until 
+            They Meet a Sales Superstar Who Is Following 
+            These 5 Simple Keys</h4>
+            <button class="cta-btn">Yes! GET ME REGISTERED NOW</button>
+    </div>
+
+  </div>
+  <div class="packages">
+    <div class="container">
+      <h2 class="breaker-heading">Our Packages</h2>
+      <div class="tab-course-category d-none">
+        <ul>
+              <li class="filter filter-active" data-filter="all"> All </li>
+                <li class="filter" data-filter=".computer-science">Computer Science</li>
+                <li class="filter" data-filter=".web-development">Web Development</li>
+                <li class="filter" data-filter=".data-science">Data Science</li>
+                <li class="filter" data-filter=".engineering">Engineering</li>
+                <li class="filter" data-filter=".architecture">Architecture</li>
+            
+        </ul>
+      </div>
+      
+      <div class="row ts-mix-tab-course mixcontent" id="mixcontent">
+        <div class="col-lg-4 mix col-sm-6 ts-mb-10 web-development " data-bound="" style="display: inline-block;">
+    
+            <div class="single-course">
+    
+                <div class="course-category">
+                    <a  href="https://demo-themewinter.com/turitor/course-category/web-development/">High Achiever</a>
+                </div>
+                <p > 
+                      <a class="package-text" style="color: #848484;" href="https://demo-themewinter.com/turitor/course/making-music-with-other-people/">
+                        This type of student is at the top of their academic game.We often see these types with unweighted 3.9+ GPAs, tons of extracurriculars, taking the hardest classes at their schools and who might have high test scores.
+                      </a>	
+                </p>
+                <div class="enrol-list-area">
+                    <ul class="course-enrole-list">
+                        <li class="lessons">
+                            <i class="tsicon tsicon-file"></i> Lessons </li>
+                        <li class="students">
+                            <i class="tsicon tsicon-user_group"></i> 50
+                        </li>
+                    </ul>
+                    <div class="instructor">
+    
+                        <div class="instructor-thumb">
+                            <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " decoding="async" data-src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 "
+                            alt="turitor" data-ll-status="loaded" class="entered litespeed-loaded">
+                            <noscript><img decoding="async" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " alt="turitor"></noscript>
+                        </div>
+                        <a href="https://demo-themewinter.com/turitor/instructor/turitor/"><span><span class="instructor-display-name">turitor</span></span></a>
+                    </div>
+                </div>
+    
+                <div class="course-thumb d-flex justify-content-center">
+                    <img data-lazyloaded="1" src="images/package_1.png" decoding="async" class="img-fluid entered error" data-src="//demo-themewinter.com/turitor/wp-content/uploads/2019/11/course_image1.png" alt="Making Music with Other People"
+                    data-ll-status="error">
+                    <noscript><img decoding="async" class="img-fluid" src="images/package_1.png" alt="Making Music with Other People"></noscript>
+                </div>
+               <div>
+                <button data-ll-status="loaded" decoding="async" aria-hidden="false" class="btn btn-primary">Learn More</button>
+               </div>
+    
+                <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg" decoding="async" class="course-shap entered litespeed-loaded" data-src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg"
+                alt="shape" data-ll-status="loaded">
+            
+    
+                <div class="course-footer">
+                    <div class="xs-ratting-content ">
+                        <div class="xs-review-rattting"><span class="screen-rattting-text"> 5 </span>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                        </div><span class="wp-ratting-vote"> 1  votes</span></div>
+                    <div class="course-price-item">
+                        <span class="course-price">							
+                        $1.99																			</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 mix col-sm-6 ts-mb-10 web-development " data-bound="" style="display: inline-block;">
+    
+            <div class="single-course">
+    
+                <div class="course-category">
+                    <a  href="https://demo-themewinter.com/turitor/course-category/web-development/">Easygoing</a>
+                </div>
+                <p > 
+                      <a class="package-text" style="color: #848484;" href="https://demo-themewinter.com/turitor/course/making-music-with-other-people/">
+                        This type of student is typically at the top of their social or leisure game. We often see these types with unweighted 3.0-3.8 GPAs, social or creative-focused extracurriculars and who might struggle with consistent motivation. 
+                      </a>	
+                </p>
+                <div class="enrol-list-area">
+                    <ul class="course-enrole-list">
+                        <li class="lessons">
+                            <i class="tsicon tsicon-file"></i> Lessons </li>
+                        <li class="students">
+                            <i class="tsicon tsicon-user_group"></i> 50
+                        </li>
+                    </ul>
+                    <div class="instructor">
+    
+                        <div class="instructor-thumb">
+                            <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " decoding="async" data-src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 "
+                            alt="turitor" data-ll-status="loaded" class="entered litespeed-loaded">
+                            <noscript><img decoding="async" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " alt="turitor"></noscript>
+                        </div>
+                        <a href="https://demo-themewinter.com/turitor/instructor/turitor/"><span><span class="instructor-display-name">turitor</span></span></a>
+                    </div>
+                </div>
+    
+                <div class="course-thumb d-flex justify-content-center">
+                    <img data-lazyloaded="1" src="images/package_2.png" decoding="async" class="img-fluid entered error" data-src="//demo-themewinter.com/turitor/wp-content/uploads/2019/11/course_image1.png" alt="Making Music with Other People"
+                    data-ll-status="error">
+                    <noscript><img decoding="async" class="img-fluid" src="images/package_2.png" alt="Making Music with Other People"></noscript>
+                </div>
+               <div>
+                <button data-ll-status="loaded" decoding="async" aria-hidden="false" class="btn btn-primary">Learn More</button>
+               </div>
+    
+                <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg" decoding="async" class="course-shap entered litespeed-loaded" data-src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg"
+                alt="shape" data-ll-status="loaded">
+            
+    
+                <div class="course-footer">
+                    <div class="xs-ratting-content ">
+                        <div class="xs-review-rattting"><span class="screen-rattting-text"> 5 </span>
+                            <div class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                        </div><span class="wp-ratting-vote"> 1  votes</span></div>
+                    <div class="course-price-item">
+                        <span class="course-price">							
+                        $1.99																			</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 mix col-sm-6 ts-mb-10 web-development " data-bound="" style="display: inline-block;">
+    
+            <div class="single-course">
+    
+                <div class="course-category">
+                    <a  href="https://demo-themewinter.com/turitor/course-category/web-development/">First-Generation</a>
+                </div>
+                <p > 
+                      <a class="package-text" style="color: #848484;" href="https://demo-themewinter.com/turitor/course/making-music-with-other-people/">
+                        This type of student was raised by parents not born in the US. Theachievement level can be either easy-going or high achiever, but often the parents feel inexperienced in admissons and wnat guidance during the process. 
+                      </a>	
+                </p>
+                <div class="enrol-list-area">
+                    <ul class="course-enrole-list">
+                        <li class="lessons">
+                            <i class="tsicon tsicon-file"></i> Lessons </li>
+                        <li class="students">
+                            <i class="tsicon tsicon-user_group"></i> 50
+                        </li>
+                    </ul>
+                    <div class="instructor">
+    
+                        <div class="instructor-thumb">
+                            <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " decoding="async" data-src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 "
+                            alt="turitor" data-ll-status="loaded" class="entered litespeed-loaded">
+                            <noscript><img decoding="async" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " alt="turitor"></noscript>
+                        </div>
+                        <a href="https://demo-themewinter.com/turitor/instructor/turitor/"><span><span class="instructor-display-name">turitor</span></span></a>
+                    </div>
+                </div>
+    
+                <div class="course-thumb d-flex justify-content-center">
+                    <img data-lazyloaded="1" src="images/package_3.png" decoding="async" class="img-fluid entered error" data-src="//demo-themewinter.com/turitor/wp-content/uploads/2019/11/course_image1.png" alt="Making Music with Other People"
+                    data-ll-status="error">
+                    <noscript><img decoding="async" class="img-fluid" src="images/package_3.png" alt="Making Music with Other People"></noscript>
+                </div>
+               <div>
+                <button data-ll-status="loaded" decoding="async" aria-hidden="false" class="btn btn-primary">Learn More</button>
+               </div>
+    
+                <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg" decoding="async" class="course-shap entered litespeed-loaded" data-src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg"
+                alt="shape" data-ll-status="loaded">
+            
+    
+                <div class="course-footer">
+                    <div class="xs-ratting-content ">
+                        <div class="xs-review-rattting"><span class="screen-rattting-text"> 5 </span>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                        </div><span class="wp-ratting-vote"> 1  votes</span></div>
+                    <div class="course-price-item">
+                        <span class="course-price">							
+                        $1.99																			</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 mix col-sm-6 ts-mb-10 web-development " data-bound="" style="display: inline-block;">
+    
+            <div class="single-course">
+    
+                <div class="course-category">
+                    <a  href="https://demo-themewinter.com/turitor/course-category/web-development/">Extra Support</a>
+                </div>
+                <p > 
+                      <a class="package-text" style="color: #848484;" href="https://demo-themewinter.com/turitor/course/making-music-with-other-people/">
+                        This student type has factor that can affect college admissions. ADD, ADHD, anxiety, Academic difficult, depression, mental health challenges, medical challenges, and other factors impacting the student's admissions profile.
+                      </a>	
+                </p>
+                <div class="enrol-list-area">
+                    <ul class="course-enrole-list">
+                        <li class="lessons">
+                            <i class="tsicon tsicon-file"></i> Lessons </li>
+                        <li class="students">
+                            <i class="tsicon tsicon-user_group"></i> 50
+                        </li>
+                    </ul>
+                    <div class="instructor">
+    
+                        <div class="instructor-thumb">
+                            <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " decoding="async" data-src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 "
+                            alt="turitor" data-ll-status="loaded" class="entered litespeed-loaded">
+                            <noscript><img decoding="async" src="https://demo-themewinter.com/turitor/wp-content/litespeed/avatar/1/841787eb0846cc0ab6e7103ea1eeb1fd.jpg?ver=1712680147 " alt="turitor"></noscript>
+                        </div>
+                        <a href="https://demo-themewinter.com/turitor/instructor/turitor/"><span><span class="instructor-display-name">turitor</span></span></a>
+                    </div>
+                </div>
+    
+                <div class="course-thumb d-flex justify-content-center">
+                    <img data-lazyloaded="1" src="images/package_3.png" decoding="async" class="img-fluid entered error" data-src="//demo-themewinter.com/turitor/wp-content/uploads/2019/11/course_image1.png" alt="Making Music with Other People"
+                    data-ll-status="error">
+                    <noscript><img decoding="async" class="img-fluid" src="images/package_3.png" alt="Making Music with Other People"></noscript>
+                </div>
+               <div>
+                <button data-ll-status="loaded" decoding="async" aria-hidden="false" class="btn btn-primary">Learn More</button>
+               </div>
+    
+                <img data-lazyloaded="1" src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg" decoding="async" class="course-shap entered litespeed-loaded" data-src="https://demo-themewinter.com/turitor/wp-content/themes/turitor/assets/images/shape_combined.svg"
+                alt="shape" data-ll-status="loaded">
+            
+    
+                <div class="course-footer">
+                    <div class="xs-ratting-content ">
+                        <div class="xs-review-rattting"><span class="screen-rattting-text"> 5 </span>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                            <div style="" class="xs-star dashicons-before dashicons-star-filled" aria-hidden="true"></div>
+                        </div><span class="wp-ratting-vote"> 1  votes</span></div>
+                    <div class="course-price-item">
+                        <span class="course-price">							
+                        $1.99																			</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="accordion">
+    <div class="accordion-section">
+       <div class="accordion-section-header">
+          Need help in choosing the right program?
+          <div class="compare-packages">Compare All Packages</div>
+          <div class="arrow">v</div>
+       </div>
+
+    </div>
+ </div>
+  <h2 class="breaker-heading">Our Services</h2>
+  <div class="services container d-none">
+    <div class="d-flex justify-content-around">
+        <div class="icon-image-box"><img src="./images/icon_1.png" alt="" class="icon-image"><p>College Admissions Packages</p></div>
+        <div class="icon-image-box"><img src="./images/icon_2.png" alt="" class="icon-image"><p>Essays</p></div>
+        <div class="icon-image-box"><img src="./images/icon_3.png" alt="" class="icon-image"><p>Test Prep</p></div>
+        <div class="icon-image-box"><img src="./images/icon_4.png" alt="" class="icon-image"><p>Hook Projects</p></div>
+    </div>
+    <div class="d-flex justify-content-around mt-4">
+        <div class="icon-image-box"><img src="./images/icon_5.png" alt="" class="icon-image"><p>Letter of Recommendation</p></div>
+        <div class="icon-image-box"><img src="./images/icon_6.png" alt="" class="icon-image"><p>University Selection</p></div>
+        <div class="icon-image-box"><img src="./images/icon_7.png" alt="" class="icon-image"><p>Activities and Awards</p></div>
+        <div class="icon-image-box"><img src="./images/icon_8.png" alt="" class="icon-image"><p>5-Day Application Intensive</p></div>
+    </div>
+  </div>
+  
+  <style>
+
+  .icon-image {
+    transition: transform 0.3s ease-in-out;
+    margin: auto;
+  }
+
+  .icon-image-box:hover .icon-image {
+    transform: scale(0.8);
+  }
+
+  .icon-image-box p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  </style>
+  <div class="ts-course-category grid-style2 container">
+    <div class="row">
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_1.png" decoding="async" data-src=" //demo-themewinter.com/turitor/wp-content/uploads/2019/10/subject_icon1.png" alt="Computer Science" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon_1.png" alt="Computer Science"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">College Admissions Packages</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_2.png" decoding="async" data-src="/images/icon_2.png" alt="Web Development" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon_2.png" alt="Web Development"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">Essays</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_3.png" decoding="async" data-src=" //demo-themewinter.com/turitor/wp-content/uploads/2019/10/subject_icon3.png" alt="Data Science" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon3.png" alt="Data Science"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">Test Preparations</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_4.png" decoding="async" data-src="images/icon_4.png" alt="Engineering" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon4.png" alt="Engineering"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">Hook Projects</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_5.png" decoding="async" data-src=" //demo-themewinter.com/turitor/wp-content/uploads/2019/10/subject_icon5.png" alt="Architecture" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon_5.png" alt="Architecture"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">Letter Of Recommendation</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_6.png" decoding="async" data-src=" //demo-themewinter.com/turitor/wp-content/uploads/2019/10/subject_icon6.png" alt="Art &amp; Design" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon_6.png" alt="Art &amp; Design"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">University Selection</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="/images/icon_7.png" decoding="async" data-src="/images/icon_8.png" alt="Business Study" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="/images/icon_7.png" alt="Business Study"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">Activities and Awards</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+       <div class="col-lg-3 col-md-6">
+          <div class="single-course-category">
+             <img data-lazyloaded="1" src="/images/dot_shape.svg" decoding="async" class="course-dot-shape entered litespeed-loaded" data-src="/images/dot_shape.svg" alt="shape-img" data-ll-status="loaded">
+             <noscript><img decoding="async" class="course-dot-shape" src="/images/dot_shape.svg" alt="shape-img"></noscript>
+             <div class="course-media">
+                <img data-lazyloaded="1" src="images/icon_8.png" decoding="async" data-src="images/icon_8.png" alt="Psychology" data-ll-status="loaded" class="entered litespeed-loaded">
+                <noscript><img decoding="async" src="images/icon_8.png" alt="Psychology"></noscript>
+             </div>
+             <div class="course-content">
+                <h3 class="course-category-title"> <a href="#">5-Day Application Intensive</a>  </h3>
+             </div>
+             <!-- dot shap -->
+          </div>
+       </div>
+    </div>
+    <h2 class="breaker-heading">The College Mastermind Difference</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/4TIvB8zDFio" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <h3 style="color: #0EB582;">We go Beyond <br> Admissions</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quibusdam optio aliquid labore cum necessitatibus, odit ad voluptate minus illum libero hic odio alias voluptatum, architecto dolores ab tempora aperiam.</p>
+          </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-4 p-2">
+        <div class="col-md-6 text-center p-4" style="background-color: #D8EFFC; border-radius: 20px;">
+            <h3 style="color: #222161;" class="mx-3">Ready to get help with <br> admissions?</h3>
+            <img src="./images/guy_on_pc.png" alt="">
+            <button class="our-btn-primary mt-3">Schedule a consultation</button>
+        </div>
+        <div class="col-md-6 p-4 text-center ml-3" style="background-color: #222161; display: flex; justify-content: center; align-items: center; flex-direction: column; border-radius: 20px;">
+            <h3 style="color: #fff;" class="mx-3">See a comprehensive <br>list of all of our services </h3>
+            <img src="./images/123_burger_icon.png" class="my-2" alt="">
+            <button class="our-btn-primary mt-3">All of Our Services</button>
+        </div>
+    </div>
+ </div>
+ 
+ <section>
+  <h2 class="breaker-heading">Our Clients Experience</h2>
+  <div class="wrapper container">
+    <div class="card">
+
+      <div class="card-top">
+        <img class="p-img" src="/images/aunty.jpg" alt="profile">
+        <span class="name">Hailey Woodson</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> Hailey Woodson</button>
+      </div>
+
+    </div>
+
+    <div class="card">
+      
+      <div class="card-top">
+        <img class="p-img" src="/images/aunty2.jpg" alt="profile">
+        <span class="name">Sarah Robert</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p> <br>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> Sarah Robert</button>
+      </div>
+
+    </div>
+
+    <div class="card">
+      
+      <div class="card-top">
+        <img class="p-img" src="/images/uncle.jpg" alt="profile">
+        <span class="name">Robert Jr.</span>
+      </div>
+
+      <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto ab repudiandae quaerat harum vitae? Quibusdam </p>
+
+      <div class="card-bottom">
+        <img class="logo" src="/images/Class of 2024.svg" alt="logo">
+        <button class="btn">Learn more about <br> Robert Jr.</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- footer -->
+  <section class="elementor-section elementor-element elementor-element-280b elementor-section-boxed elementskit-parallax-multi-container">
+    <div class="elementor-container">
+        <div class="elementor-column elementor-col-100 elementor-element elementor-element-bda">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <section class="elementor-section elementor-element elementor-element-1993 elementor-section-boxed elementskit-parallax-multi-container">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-extended">
+                        <div class="elementor-column elementor-col-50 elementor-element elementor-element-2f64">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-1ffc627 elementor-widget elementor-widget-heading">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title">#Newsletter</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-0b5b6b9 elementor-widget elementor-widget-heading">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title">Join our community of students</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-element elementor-element-67fadcf">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-841e36f elementor-widget elementor-widget-mf-email">
+                                    <div class="elementor-widget-container">
+                                        <div class="mf-input-wrapper"><input type="email" class="mf-input " id="mf-input-email-841e36f" name="mf-email" placeholder="Enter  your email " value=""></div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-e10c340 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-mf-button">
+                                    <div class="elementor-widget-container">
+                                        <div class="mf-btn-wraper "><button type="submit" class="metform-btn metform-submit-btn " id=""><i class="fas fa-envelope"></i> <span>Subscribe </span></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="ts-footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Company</h3>
+                  <div>
+                      <ul class="menu">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Resource center</a></li>
+                          <li><a href="#">Guides</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Categories</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">All Courses</a></li>
+                          <li><a href="#">Digital Marketing</a></li>
+                          <li><a href="#">Design &amp; Branding</a></li>
+                          <li><a href="#">Storytelling &amp; Voice Over</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Support</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="#">System Requirements</a></li>
+                          <li><a href="#">Register Activation Key</a></li>
+                          <li><a href="#">Site feedback</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                  <h3 class="widget-title">Get in touch</h3>
+                  <div>
+                      <ul>
+                          <li><a href="#">Contact Support</a></li>
+                          <li><a href="#">Help Center </a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="footer-widget">
+                  <div class="footer-social">
+                      <ul class="ts-social-list">
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bar"> </div>
+      <div class="row copyright">
+          <div class="col-md-2 align-self-center">
+              <a class="footer-logo" href="https://demo-themewinter.com/turitor/">
+                  <img src="https://demo-themewinter.com/turitor/wp-content/uploads/2020/02/white-logo.png"><noscript><img src="//demo-themewinter.com/turitor/wp-content/uploads/2020/02/white-logo.png" alt="Turitor"></noscript>
+              </a>
+          </div>
+          <div class="col-md-5 align-self-center">
+              <p class="copyright-text"> Copyright © 2024 College Mastermind. Right Reserved. </p>
+          </div>
+          <div class="col-md-5 align-self-center">
+              <div>
+                  <ul id="footer-menu" class="footer-menu">
+                      <li><a href="#" class="nav-link">About</a></li>
+                      <li><a href="#" class="nav-link">Careers</a></li>
+                      <li><a href="#" class="nav-link">Resource center</a></li>
+                      <li><a href="#" class="nav-link">Guides</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<div class="modal fade bd-example-modal-lg" id="pricingModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Pick From No. of Packages</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="accordion">
+        <div class="accordion-section-content" style="display: block;">
+            <div class="container">
+               <div class="table-wrapper">
+                  <div id="table-container">
+                     <table id="data-table" class="rounded-table">
+                        <thead>
+                           <tr>
+                              <th>
+                                 <div>
+                                    Simple Pricing
+                                 </div>
+                              </th>
+                              <th>
+                                 <div class="heading">Basic</div>
+                                 <div class="info">
+                                    <div class="amount">$23</div>
+                                    <button type="button">Choose Plan</button>
+                                 </div>
+                              </th>
+                              <th class="">
+                                 <div class="heading" style="">Premium</div>
+                                 <div class="info">
+                                    <div class="amount" style="">$33</div>
+                                    <button type="button">Choose Plan</button>
+                                 </div>
+                              </th>
+                              <th class="">
+                                 <div class="heading" style="">Startup</div>
+                                 <div class="info">
+                                    <div class="amount" style="">$43</div>
+                                    <button type="button">Choose Plan</button>
+                                 </div>
+                              </th>
+                              <th class="">
+                                 <div class="heading" style="">Pro</div>
+                                 <div class="info">
+                                    <div class="amount" style="">$22</div>
+                                    <button type="button">Choose Plan</button>
+                                 </div>
+                              </th>
+                           </tr>
+                        </thead>
+                        <tbody style="border: 6px solid rgb(79, 135, 150); border-radius: 10px; overflow: hidden; display: block;">
+                           <tr>
+                              <td>All limited Links</td>
+                              <td>
+                                 <svg class="Basic" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Premium" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Startup" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Pro" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>Chat Support</td>
+                              <td>
+                                 <svg class="Basic" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Premium" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Startup" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Pro" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>24/7 Support </td>
+                              <td>
+                                 <svg class="special-svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="special-svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Startup" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Pro" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>Unlimited Bandwith</td>
+                              <td>
+                                 <svg class="special-svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="special-svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Startup" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                              <td class="">
+                                 <svg class="Pro" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z" style=""></path>
+                                 </svg>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+    $('.accordion').on("click", function(){
+        $("#pricingModal").modal('show');
+});
+</script>
+</body>
+</html>
